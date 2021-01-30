@@ -12,10 +12,8 @@ export default {
     file: "./public/javascripts/app.js",
     format: "iife",
     globals: {
-      // React: "react",
       react: 'React',
       'react-dom': 'ReactDOM',
-      // ReactDOM: "react-dom",
     },
   },
   plugins: [
