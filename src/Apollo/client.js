@@ -1,9 +1,10 @@
 // from https://www.apollographql.com/docs/react/get-started/
-import { ApolloClient, InMemoryCache } from '@apollo/client';
+import { ApolloClient } from '@apollo/client';
+import cache from './cache';
 
 const client = new ApolloClient({
   uri: 'https://countries-274616.ew.r.appspot.com',
-  cache: new InMemoryCache()
+  cache,
 });
 
 export default client;
