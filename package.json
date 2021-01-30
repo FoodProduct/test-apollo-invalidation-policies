@@ -8,9 +8,12 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@apollo/client": "^3.3.7",
+    "apollo-invalidation-policies": "^1.0.0-beta11",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "graphql": "^15.5.0",
     "morgan": "~1.9.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
