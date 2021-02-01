@@ -4,12 +4,13 @@ var express = require('express');
  * and the `import` syntax throws an error in a Node environment
  * */
 const apolloClientCacheHelpers = require('@apollo/client/cache/inmemory/helpers');
+// const apolloInvalidationCache = require('apollo-invalidation-policies);
 
 var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Test apollo invalidation policies app' });
 });
 
 module.exports = router;
